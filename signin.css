@@ -1,0 +1,36 @@
+img {
+    filter: invert(1) grayscale(1) contrast(2);
+}
+
+body {
+    background: black !important;
+}
+
+/* #logo2 > img {
+    filter: invert(1), grayscale(1), contrast(1.2);
+} */
+
+#logo1 > img {
+    filter: invert(1) grayscale(1) contrast(1.2);
+}
+
+.form_box {
+    border: solid 7px #161411;
+    background: black !important;
+}
+
+span {
+    color: white !important;
+}
+
+.report {
+    background-color: #494949;
+}
+
+input {
+    filter: grayscale(1);
+}
+
+.form_input_title {
+    color: white !important;
+}

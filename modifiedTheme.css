@@ -1,0 +1,201 @@
+#answer-input input[type="text"] {
+    color: white; /*NEW*/
+}
+
+.scrolling-wrapper{
+    background: black;/*NEW*/
+}
+
+.top-navbar {
+    background-color: #323030 !important;
+}
+
+#backDoor > img {
+    filter: grayscale(1) contrast(1.5) brightness(1.5);
+}
+
+#A1_Container {
+    filter: invert(1);
+}
+
+#_A2, #_A3 {
+    color: white;
+}
+
+h6, h5 {
+    color: white !important;
+}
+
+.text-answer {
+    background-color: #323030 !important;
+}
+
+#answerText {
+    background: black;
+}
+
+/*I can't seem to invert all images :/ */
+
+/* .img {
+    filter: invert(1);
+} */
+
+.counter > span { 
+    /*Must be important, it's put into the .js file for whatever reason*/
+    background: linear-gradient(.25turn, #000000 0%, #3a3838 100%) !important;
+}
+
+/* #counter_decor {
+    box-shadow:none !important;
+} */
+
+.counter > span.counter_decor.counter_bottom {
+    box-shadow: none !important;
+    
+}
+
+.counter > .counter_bottom {
+    /*super hacky, please replace*/
+    /*removes line in the number*/
+    top: 47.5% !important;
+}
+
+#menu_items {
+    filter: grayscale(1) brightness(0.63) contrast(5);
+}
+
+/* #keyboard_button div[style] { or td div[style
+    background-color: #323030 !important;
+    color: white !important;
+} */
+/* :( now i have to do a hacky solution*/
+
+/* tbody tr td div {
+    background-color: #323030 !important;
+    color: white !important;
+} */
+
+.keyboard_button div[style] {
+    background-color: #323030 !important;
+    color: white !important;
+}
+
+.counter_from > span, .counter_to > span {
+    color: white !important;
+}
+
+/*This just makes things easier to see when I pause*/
+.plyr__controls {
+    background: linear-gradient(hsl(0deg 0% 20% / 0%), rgb(0 0 0 / 50%)) !important;
+}
+
+/*Ok now that I am putting this on Github someone please figure out how to make this work so i don't have to do the double inversion angry nonsense*/
+
+/* 
+#background.background-book {
+    /*background: url("chrome-extension://lhempmccohbflffdenmcnfglmndhapjm/blackbook.png") repeat-y center top;
+    background: url("http://mywebsitehost/blackbook.png") repeat-y center top;
+} */
+
+/* 
+#background.background-book {
+    background: url("chrome-extension://lhempmccohbflffdenmcnfglmndhapjm/images/blackbook.png") repeat-y 0 0;
+    background-position: center top;
+} */
+
+/* #background.background-book {
+    background: url("chrome-extension://@extension_id/images/blackbook.png") repeat-y 0 0;
+    background-position: center top;
+} */
+
+
+/*Stupid stupid stupid stupid*/
+/*You can't do anything with URLs with only CSS*/
+
+#background {
+    filter: invert(1);
+}
+#background > tbody {
+    filter: invert(1);
+}
+/* >:( */
+
+.scrollabletext > div > img, .scrollabletext > div > div > img {
+    filter: invert(1);
+}
+
+
+
+.scrollabletext > div {
+    color: white;
+}
+
+.scrollabletext > div > span > span > span {
+    color: white !important;
+}
+
+#A2_Container, #A3_Container {
+    background: black;
+    border: solid 7px #161411;
+}
+
+#A2_Container > img, #A3_Container > img, #A2_Container > span, #A3_Container > span {/*Isn't this basically just _A2, _A3?*/
+    filter: invert(1);
+}
+
+/*Writing Tutor*/
+#writingSection {
+    background-color: black !important;
+}
+
+.page-wrapper > .page {
+    border: solid 7px #161411 !important;
+    background-color: black;
+}
+
+/* .page {
+    border: solid 7px #161411 !important;
+} */
+
+
+#text, #text > div > span {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+#title > img {
+    filter: grayscale(1) contrast(1.2);
+}
+
+
+.flex-space.grammar-box.writing-footer {
+    background: black;
+}
+
+.flex-space.grammar-box.writing-footer > div > span {
+    color:white;
+}
+
+.saving-bar {
+    background-color: #494949 !important;
+    color:white !important;
+}
+
+/*Fix instructions button later*/
+
+#show-instructions-menu {
+    border-left-color: #494949;
+    background-color: black;
+}
+
+#instructions-content > span {
+    color:white;
+}
+
+#instructions-content > div > span {
+    color: white;
+}
+
+/*"Fix" blue color remnant later*/
+

@@ -1,0 +1,95 @@
+/*
+I don't need to copy and paste all of it.
+*/
+
+body {
+    background: black !important;
+}
+
+.Object7218 > div {
+    background-color: black !important;
+}
+
+div > table {
+    background-color: black !important;
+}
+
+span {
+    /*background-color: black !important;*/
+    background-color: transparent;
+    color: white !important;
+}
+
+td {
+    background-color: black !important;
+}
+
+div > a {
+   filter: grayscale(1) brightness(0.6) contrast(6) drop-shadow(2px 4px 6px gray) !important;
+}
+
+.ObjectBanner > img {
+    filter: grayscale(1) brightness(0.9) contrast(2.8) !important
+}
+
+.ObjectLogo {
+    background-color: black !important;
+}
+
+.ObjectLogo > img {
+    filter: brightness(0) invert(1) drop-shadow(2px 4px 6px gray) !important;
+}
+
+tr > td {
+    color:white !important;
+}
+
+.account_link {
+    color: #494949 !important;
+}
+
+.big-title:after {
+    border-bottom: 3px solid #494949 !important;
+}
+
+.main_page_background {
+    background: rgb(0, 0, 0) !important;
+}
+/* 
+div > div > img {
+    filter: grayscale(1) brightness(0.9) contrast(2.8) !important
+} */
+
+div > div > img {
+    filter: grayscale(1) contrast(2);
+}
+
+/*Thanks stackoverflow*/
+div[class*='Object70'] > div {
+    color: white !important;
+}
+
+.dailyprogress {
+    filter: grayscale(1);
+}
+
+/*All of the below can definitely be prettied up, rather than basically removed.*/
+
+.Object7054 > img, .Object7060 > img, .Object7043 > img, .Object7038 > img { /*>:( corners.png, corners.png, bluebar_score.png x2*/
+    filter: brightness(0);
+}
+
+/*Classes page*/ .Object7040, .Object7044, .Object7041, .Object7039, .Object7045, .Object7151, .Object7152, 
+/*Score*/ /*.Object7152,*/ .Object7153, .Object7154, .Object7155,
+/*Class Scores*/ .Object7176, .Object7177, .Object7178, .Object7183, .Object7182
+{
+    opacity: 0;
+}
+
+.Object7152 > img {
+    opacity: 0;
+}
+
+tr > td > img {
+    filter: grayscale(1) contrast(2);
+}
