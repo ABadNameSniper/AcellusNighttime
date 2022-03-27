@@ -1,9 +1,9 @@
 #answer-input input[type="text"] {
-    color: white; /*NEW*/
+    color: white;
 }
 
 .scrolling-wrapper{
-    background: black;/*NEW*/
+    background: black;
 }
 
 .top-navbar {
@@ -22,7 +22,7 @@
     color: white;
 }
 
-h6, h5 {
+h6, h5, h2, h1 {
     color: white !important;
 }
 
@@ -30,9 +30,13 @@ h6, h5 {
     background-color: #323030 !important;
 }
 
-#answerText {
+/* #answerText {
     background: black;
+} */
+.textBox {
+    background: black !important;
 }
+
 
 /*I can't seem to invert all images :/ */
 
@@ -124,15 +128,31 @@ h6, h5 {
     filter: invert(1);
 }
 
-
+.scrollabletext > p > span > span {
+    color: white !important;
+}
 
 .scrollabletext > div {
-    color: white;
+    color: white !important;
 }
 
 .scrollabletext > div > span > span > span {
     color: white !important;
 }
+
+.scrollabletext > p > span > span > span {
+    color: white !important;
+}
+
+.scrollabletext > div > div > div > img {
+    filter: invert(1);
+}
+
+.scrollabletext > p > span {
+    color: white !important;
+}
+
+/*Collapse the above 4?*/
 
 #A2_Container, #A3_Container {
     background: black;
@@ -198,4 +218,6 @@ h6, h5 {
 }
 
 /*"Fix" blue color remnant later*/
+
+
 

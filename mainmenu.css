@@ -93,3 +93,44 @@ div[class*='Object70'] > div {
 tr > td > img {
     filter: grayscale(1) contrast(2);
 }
+
+/*Special Lessons */
+#homeworkTable > tr > td > div > img {
+    filter: invert(1);
+}
+
+#container.homework2 {
+    background-color: black !important;
+}
+
+#homeworkContent > div {
+    background: black;
+
+}
+
+/*Add Work gradient fix */
+.button_div button {
+    background-color: hsl(0deg 0% 70%) !important;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    background-color: white;
+    color:white;
+    width: 8px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background-color: #494949;
+    /*
+    box-shadow: 0 0 3px hsl(235, 21%, 11%);
+    border-radius: 10px;
+    */
+  }
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+  }
